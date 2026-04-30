@@ -113,7 +113,7 @@ WHEEL_RADIUS = 0.021
 
 # Position controller state
 integral = 0
- y_prev = 0
+y_prev = 0
 
 DIST_SENS_SCALE_FAC = 0.001
 RIGHT_ANGLE_CALIB = 1.975  # rad, calibrated approximately 90 degrees for this robot/world
