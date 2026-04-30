@@ -1,15 +1,15 @@
 # Webots-labyrinttirobotti
 
-Webots-robotiikan case study, jossa labyrinttirobotti käyttää kolmea etäisyysanturia, suuntatietoa, PID-seinäseurantaa, enkooderipohjaisia käännöksiä ja tilakonetta labyrintin läpäisyyn.
+Webots-robotiikan case study, jossa Thymio-tyylinen labyrinttirobotti käyttää kolmea etäisyysanturia, suuntatietoa, PID-seinäseurantaa, enkooderipohjaisia käännöksiä ja tilakonetta labyrintin läpäisyyn.
 
 ## Portfolio case study
 
-- Portfolio-sivu: `https://www.jibranhussain.com/projects/maze-solving-robot/`
-- English README: [`README.md`](README.md)
+- [Portfolio-sivu](https://www.jibranhussain.com/projects/maze-solving-robot/)
+- [English README](README.md)
 
 ## Projektin yhteenveto
 
-Tehtävänä oli kirjoittaa ohjain, jonka avulla Thymio-tyylinen robotti kulkee labyrintin läpi. Robotilla on etäisyysanturit vasemmalla, edessä ja oikealla sekä suuntatieto orientaation seuraamiseen.
+Tehtävänä oli kirjoittaa ohjain, jonka avulla robotti kulkee labyrintin läpi. Robotilla on etäisyysanturit vasemmalla, edessä ja oikealla sekä suuntatieto orientaation seuraamiseen.
 
 Toteutettu ohjain yhdistää seinäseurannan ja tilakonepohjaisen navigoinnin. Robotti ajaa eteenpäin, korjaa etäisyyttään seinään PID-säädöllä, tunnistaa esteitä etäisyysantureista ja tekee kalibroituja käännöksiä pyöräenkooderien avulla.
 
@@ -42,10 +42,7 @@ Eteenpäin ajaessa robotti käyttää PID-korjausta sopivan seinäetäisyyden yl
 | Todiste | Tiedosto |
 |---|---|
 | Python-ohjain | [`maze_solver.py`](maze_solver.py) |
-| Alkuperäinen ohjaintiedosto | [`my_controller.py`](my_controller.py) |
-| Simulaatiovideo | `maze_simulation.mp4` |
-
-Simulaatiovideo kannattaa lisätä nimellä `maze_simulation.mp4`, jos sitä ei vielä ole repositoriossa.
+| Simulaatiovideo | [`maze_simulation.mp4`](maze_simulation.mp4) |
 
 ## Mitä projekti osoittaa
 
