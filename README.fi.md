@@ -2,9 +2,8 @@
 
 Webots-robotiikan case study, jossa Thymio-tyylinen labyrinttirobotti käyttää kolmea etäisyysanturia, suuntatietoa, PID-seinäseurantaa, enkooderipohjaisia käännöksiä ja tilakonetta labyrintin läpäisyyn.
 
-## Portfolio case study
+## Kieli
 
-- [Portfolio-sivu](https://www.jibranhussain.com/projects/maze-solving-robot/)
 - [English README](README.md)
 
 ## Projektin yhteenveto
@@ -37,12 +36,12 @@ move_fwd_max_vel -> turn_left / turn_right -> dead_end -> end
 
 Eteenpäin ajaessa robotti käyttää PID-korjausta sopivan seinäetäisyyden ylläpitämiseen. Käännökset tehdään pyöräenkooderien palautteen perusteella.
 
-## Todisteaineisto
+## Projektitiedostot
 
-| Todiste | Tiedosto |
+| Tiedosto | Kuvaus |
 |---|---|
-| Python-ohjain | [`maze_solver.py`](maze_solver.py) |
-| Simulaatiovideo | [`maze_simulation.mp4`](maze_simulation.mp4) |
+| [`maze_solver.py`](maze_solver.py) | Python-ohjain |
+| [`maze_simulation.mp4`](maze_simulation.mp4) | Simulaatiovideo |
 
 ## Mitä projekti osoittaa
 
@@ -60,4 +59,4 @@ Ohjain lukee suuntatietoa `getRollPitchYaw()`-metodilla laitteesta nimeltä `com
 
 ## Lisenssihuomio
 
-Lähdekoodi on julkaistu MIT-lisenssillä. Raportti ja mediatiedostot ovat mukana portfolio-todisteina ja opetuksellisena demonstraationa.
+Lähdekoodi on julkaistu MIT-lisenssillä. Raportit ja mediatiedostot ovat mukana projektin dokumentaationa ja demonstraatiomateriaalina.
