@@ -2,9 +2,8 @@
 
 A Webots robotics case study where a Thymio-style maze robot uses three distance sensors, heading information, PID wall following, encoder-based turns, and a finite-state machine to navigate through a labyrinth.
 
-## Portfolio case study
+## Language
 
-- [Portfolio page](https://www.jibranhussain.com/projects/maze-solving-robot/)
 - [Finnish README](README.fi.md)
 
 ## Project summary
@@ -47,12 +46,12 @@ Turns are performed using wheel encoder feedback. The controller estimates the t
 theta = (right_distance - left_distance) / wheel_base
 ```
 
-## Evidence files
+## Project files
 
-| Evidence | File |
+| File | Description |
 |---|---|
-| Python controller | [`maze_solver.py`](maze_solver.py) |
-| Simulation video | [`maze_simulation.mp4`](maze_simulation.mp4) |
+| [`maze_solver.py`](maze_solver.py) | Python controller |
+| [`maze_simulation.mp4`](maze_simulation.mp4) | Simulation video |
 
 ## What this project demonstrates
 
@@ -70,4 +69,4 @@ The controller reads heading information using `getRollPitchYaw()` from the devi
 
 ## License note
 
-The source code is licensed under the MIT License. Report and media files are included as portfolio evidence and educational demonstration material.
+The source code is licensed under the MIT License. Reports and media files are included as supporting project documentation and demonstration material.
