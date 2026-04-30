@@ -1,19 +1,17 @@
 # Webots Maze Solving Robot
 
-A Webots robotics case study where a maze robot uses three distance sensors, heading information, PID wall following, encoder-based turns, and a finite-state machine to navigate through a labyrinth.
+A Webots robotics case study where a Thymio-style maze robot uses three distance sensors, heading information, PID wall following, encoder-based turns, and a finite-state machine to navigate through a labyrinth.
 
 ## Portfolio case study
 
-Portfolio page will be added here after the project is connected to the main portfolio:
-
-- Portfolio page: `https://www.jibranhussain.com/projects/maze-solving-robot/`
-- Finnish README: [`README.fi.md`](README.fi.md)
+- [Portfolio page](https://www.jibranhussain.com/projects/maze-solving-robot/)
+- [Finnish README](README.fi.md)
 
 ## Project summary
 
-The task was to write a controller that allows a Thymio-style robot to travel through a maze. The robot has distance sensing on the left, front, and right sides, plus heading information for orientation awareness.
+The task was to write a controller that allows a robot to travel through a maze. The robot has distance sensing on the left, front, and right sides, plus heading information for orientation awareness.
 
-The implemented controller combines wall following and state-machine navigation. The robot drives forward while correcting its distance to a wall, detects intersections and blocked paths from distance sensor readings, and performs calibrated turns using wheel encoder feedback.
+The implemented controller combines wall following and state-machine navigation. The robot drives forward while correcting its distance to a wall, detects blocked paths from distance sensor readings, and performs calibrated turns using wheel encoder feedback.
 
 ## System
 
@@ -54,10 +52,7 @@ theta = (right_distance - left_distance) / wheel_base
 | Evidence | File |
 |---|---|
 | Python controller | [`maze_solver.py`](maze_solver.py) |
-| Original controller upload | [`my_controller.py`](my_controller.py) |
-| Simulation video | `maze_simulation.mp4` |
-
-The simulation video should be uploaded as `maze_simulation.mp4` if it is not already present.
+| Simulation video | [`maze_simulation.mp4`](maze_simulation.mp4) |
 
 ## What this project demonstrates
 
